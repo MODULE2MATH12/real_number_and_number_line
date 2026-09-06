@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Real Number Calculator</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main class="layout">
+    <section class="app">
+      <section class="card">
+      <h1>Real Number Calculator</h1>
+      <p class="subtitle">Enter a set of real numbers</p>
+
+      <div class="input-row">
+        <input id="numberInput" type="number" step="any" placeholder="Enter a number">
+        <button id="addButton">Add Number</button>
+      </div>
+      <p id="error" class="error" aria-live="polite"></p>
+
+      <div class="numbers-header">
+        <h2>Numbers</h2>
+        <span id="count">0 numbers</span>
+      </div>
+      <div id="numberList" class="number-list">
+        <p class="empty">No numbers entered yet.</p>
+      </div>
+      <button id="clearButton" class="clear-button">Clear All</button>
+
+      <section id="numberLineSection" class="number-line-section hidden">
+        <h2>Number Line</h2>
+        <p class="hint">Click two points to compare them and measure the distance between them.</p>
+        <div class="line-wrap">
+          <div id="numberLine" class="line"></div>
+        </div>
+      </section>
+
+      <section id="analysisSection" class="analysis-section hidden">
+        <h2>Comparison & Distance</h2>
+        <div class="selection-row">
+          <div class="selection-box">
+            <span>First number</span>
+            <strong id="firstSelected">—</strong>
+          </div>
+          <div class="selection-symbol">↔</div>
+          <div class="selection-box">
+            <span>Second number</span>
+            <strong id="secondSelected">—</strong>
+          </div>
+        </div>
+
+        <div id="result" class="result-box">
+          <p>Select two points on the number line.</p>
+        </div>
+      </section>
+      </section>
+    </section>
+
+    <aside class="sidebar">
+      <div class="sidebar-header">
+        <h2 id="infoTitle">Real Numbers</h2>
+      </div>
+      <div id="infoContent" class="info-content"></div>
+    </aside>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
