@@ -186,7 +186,7 @@ const sidebarInfo = {
     },
     {
       heading: "Authors / Group",
-      text: "Ancino, Jolo Jan | Bacalso, Mary Faith | Coronado, Christine Divine | Flores, John Jievol | Geloryao, Rufyn Rose | Jovero, Angeline Mar | Noveros, Althea | Valdez, Kurt Airho"
+      text: "Ancino, Jolo Jan | Bacalso, Mary Faith | Coronado, Christine Divine | Flores, John Jievol | Geloryao, Rufyn Rose | Jovero, Angeline Mae | Noveros, Althea | Valdez, Kurt Airho"
     }
   ]
 };
