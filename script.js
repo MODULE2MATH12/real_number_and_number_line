@@ -183,6 +183,18 @@ const sidebarInfo = {
     {
       heading: "MODULE 2 GROUP - BSCS 2A",
       text: "Math 12"
+    },
+    {
+      heading: "Authors / Group Members",
+      text: "Ancino, Jolo Jan",
+      text: "Bacalso, Mary Faith",
+      text: "Coronado, Christine Divine",
+      text: "Flores, John Jievol",
+      text: "Geloryao, Rufyn Rose",
+      text: "Jovero, Angeline Mae",
+      text: "Lizardo, Shem Asher",
+      text: "Noveros, Althea",
+      text: "Valdez, Kurt Airho",
     }
   ]
 };
