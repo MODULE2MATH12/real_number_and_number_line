@@ -185,20 +185,11 @@ const sidebarInfo = {
       text: "Math 12"
     },
     {
-      heading: "Authors / Group Members",
-      text: "Ancino, Jolo Jan",
-      text: "Bacalso, Mary Faith",
-      text: "Coronado, Christine Divine",
-      text: "Flores, John Jievol",
-      text: "Geloryao, Rufyn Rose",
-      text: "Jovero, Angeline Mae",
-      text: "Lizardo, Shem Asher",
-      text: "Noveros, Althea",
-      text: "Valdez, Kurt Airho",
+      heading: "Authors / Group",
+      text: "Ancino, Jolo Jan | Bacalso, Mary Faith | Coronado, Christine Divine | Flores, John Jievol | Geloryao, Rufyn Rose | Jovero, Angeline Mar | Noveros, Althea | Valdez, Kurt Airho"
     }
   ]
 };
-
 function renderSidebarInfo() {
   document.getElementById("infoTitle").textContent = sidebarInfo.title;
   const content = document.getElementById("infoContent");
